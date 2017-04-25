@@ -1,6 +1,11 @@
 body{
     background-color: #ccc;
 }
+h1 {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    text-align:center;
+}
 table, th, td {
     border: 1px solid black;
     margin-left: auto;
@@ -16,6 +21,9 @@ tr:nth-child(2n+2) {
 }
 tr.hdr{
     font-weight: bold;
+}
+tr.hdr td{
+    text-align:left;
 }
 tr.blue{
     background: #77f;
